@@ -27,6 +27,7 @@ public class FXMLDocumentController implements Initializable
 {
     @FXML
     private Button test;
+    private Button test2;
     @FXML
     private Button btnAdd;
     @FXML

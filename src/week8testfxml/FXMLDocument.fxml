@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="399.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="week8testfxml.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="518.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="week8testfxml.FXMLDocumentController">
    <children>
       <Button fx:id="btnAdd" layoutX="40.0" layoutY="181.0" mnemonicParsing="false" onAction="#Addition" text="Addittion" textFill="#f53997">
          <font>
@@ -43,5 +43,6 @@
       <CheckBox fx:id="chkAdd" layoutX="40.0" layoutY="232.0" mnemonicParsing="false" onAction="#ChkAdd" text="ADDITION" textFill="#ed0588" />
       <RadioButton fx:id="radAdd" layoutX="156.0" layoutY="232.0" mnemonicParsing="false" onAction="#radAdd" text="ADD" textFill="#e80f0f" />
       <RadioButton fx:id="radMul" layoutX="268.0" layoutY="232.0" mnemonicParsing="false" onAction="#radMul" text="Multiply" textFill="#5e09f2" />
+      <CheckBox layoutX="130.0" layoutY="271.0" mnemonicParsing="false" text="CheckBox" />
    </children>
 </AnchorPane>
