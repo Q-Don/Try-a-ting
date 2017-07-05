@@ -25,7 +25,8 @@ import javafx.scene.control.ToggleGroup;
  */
 public class FXMLDocumentController implements Initializable
 {
-    
+    @FXML
+    private Button test2;
     @FXML
     private Button btnAdd;
     @FXML
